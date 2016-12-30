@@ -1,0 +1,30 @@
+@gray-color: #2c3e50;
+@primary-color: #0089dc;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font: 400 1em/1.5 PingFang SC,Lantinghei SC,Helvetica Neue,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: @gray-color;
+  background: #f6f6f6;
+}
+ul {
+  list-style: none;
+}
+a {
+ &:link,&:visited {
+  color: @gray-color;
+  text-decoration: none;
+ } 
+ &:hover,&:active {
+  
+ }
+}
+
+button:focus,input:focus {
+  outline: none;
+}
