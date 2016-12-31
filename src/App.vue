@@ -1,6 +1,6 @@
 <template>
   <div id="shop">
-    <h1>产品列表</h1>
+    <h1>产品列表产品列表产品列表产品列表</h1>
     <ul class="list">
       <li v-for="(food,index) in foods[0].foods">
         <food :food="food" :index="index"></food>
